@@ -43,7 +43,7 @@ header {
 }
 
 header > h1 {
-    background-color:rgba(0, 128, 0, 0);
+    background-color:rgba(0, 55, 128, 0);
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;

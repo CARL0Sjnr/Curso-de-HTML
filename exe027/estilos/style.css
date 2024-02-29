@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    Verde : #49a09d
+    Lilás : #5f2c82
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5f2c82;
+}
+
+section {
+    position: relative;
+    top: 55px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+div#imagem {
+
+}
+
+div#imagem > img {
+    border-radius: 15px;
+    width: 300px;
+}
+
+div#formulario {
+    text-align: center;
+    padding: 10px;
+
+}
+
+section > div > p {
+    padding: 15px;
+}
+
