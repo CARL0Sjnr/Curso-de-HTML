@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fonti';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+   margin: 0px;
+   border: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C38 35%,#3CD781 );
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.654);
+    padding-top: 20px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.443);
+    margin-bottom: 20px;
+}
+header p {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    font-size: 1.3em;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav {
+    padding: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: #C5EBD6;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+nav a:hover {
+    background-color: #3CD781;
+    color: #155834;
+    transition: 400ms;
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    min-width: 280px;
+    max-width: 650px;
+    padding: 25px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.381);
+    text-align: justify;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+main img {
+    width: 100%;
+}
+img#dr {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+main h1 {
+    font-family: 'Fonti';
+    color: #155834;
+}
+main h2 {
+    background-image: linear-gradient(to right, #84E1AD, white);
+    color: #155834;
+    font-family: 'Fonti';
+    font-weight: 200;
+}
+main p {
+    padding: 10px;
+}
+
+aside {
+    margin: auto;
+    background-color: #C5EBD6;
+    max-width: 550px;
+    min-width: 300px;
+    padding: 10px 35px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.314);
+}
+aside abbr {
+    text-decoration: none;
+}
+aside a {
+    text-decoration: none;
+    color: black;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+aside ul {
+    list-style-type: '\✅';
+    columns: 2;
+}
+
+div {
+    background-color: #2FA866;
+    max-width: 550px;
+    min-width: 300px;
+    padding: 10px 35px;
+    margin: auto;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.314);
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #155834;
+    color: white;
+}
+
