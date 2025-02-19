@@ -136,8 +136,12 @@ footer {
 }
 
 @media screen and (min-width: 520px) {
-    nav a {
+    nav {
         padding: 20px;
+    }
+
+    nav a {
+        padding: 5px;
     }
 
     main h1 {
