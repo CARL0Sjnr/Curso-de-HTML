@@ -44,12 +44,12 @@ header p {
 }
 
 nav {
-    padding: 25px;
+    padding: 10px;
 }
 nav a {
     text-decoration: none;
     color: #C5EBD6;
-    padding: 5px;
+    padding: 0px;
     border-radius: 5px;
     font-weight: 600;
 }
@@ -81,6 +81,7 @@ img#dr {
 main h1 {
     font-family: 'Fonti';
     color: #155834;
+    font-size: 3em;
 }
 main h2 {
     background-image: linear-gradient(to right, #84E1AD, white);
@@ -96,7 +97,7 @@ aside {
     margin: auto;
     background-color: #C5EBD6;
     max-width: 550px;
-    min-width: 300px;
+    min-width: 250px;
     padding: 10px 35px;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.314);
@@ -119,7 +120,7 @@ aside ul {
 div {
     background-color: #2FA866;
     max-width: 550px;
-    min-width: 300px;
+    min-width: 250px;
     padding: 10px 35px;
     margin: auto;
     color: white;
@@ -134,3 +135,12 @@ footer {
     color: white;
 }
 
+@media screen and (min-width: 520px) {
+    nav a {
+        padding: 20px;
+    }
+
+    main h1 {
+        font-size: 2em;
+    }
+}
