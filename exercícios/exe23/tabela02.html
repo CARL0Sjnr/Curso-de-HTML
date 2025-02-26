@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Populção</th>
+                <th>% da população total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SP</td>
+                <td>45 973 190</td>
+                <td>21,88 %</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td>21 322 692</td>
+                <td>10,11 %</td>
+            </tr>
+            <tr>
+                <td>RJ</td>
+                <td>17 219 679</td>
+                <td>7,91 %</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td>84 515 561</td>
+                <td>39,9 %</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
