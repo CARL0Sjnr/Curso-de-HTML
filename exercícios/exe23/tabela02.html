@@ -8,6 +8,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -17,19 +18,38 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(73, 71, 71);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(73, 71, 71);
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(170, 170, 170);
         }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>Tamanho da população brasileira</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populção</th>
-                <th>% da população total</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Populção</th>
+                <th scope="col">% da população total</th>
             </tr>
         </thead>
         <tbody>
@@ -171,7 +191,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td>212 583 720</td>
                 <td>100 %</td>
             </tr>
