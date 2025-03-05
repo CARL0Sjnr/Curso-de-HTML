@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        thead, tfoot {
+            background-color: rgb(73, 71, 71);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(73, 71, 71);
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(170, 170, 170);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Tamanho da população brasileira</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">Populção</th>
+                <th scope="col">% da população total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SP</td>
+                <td>45 973 190</td>
+                <td>21,88 %</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td>21 322 692</td>
+                <td>10,11 %</td>
+            </tr>
+            <tr>
+                <td>RJ</td>
+                <td>17 219 679</td>
+                <td>7,91 %</td>
+            </tr>
+            <tr>
+                <td>BA</td>
+                <td>14 850 513</td>
+                <td>6,96 %</td>
+            </tr>
+            <tr>
+                <td>PR</td>
+                <td>11 824 665</td>
+                <td>5,64 %</td>
+            </tr>
+            <tr>
+                <td>RS</td>
+                <td>11 229 915</td>
+                <td>5,36 %</td>
+            </tr>
+            <tr>
+                <td>PE</td>
+                <td>9 539 029</td>
+                <td>4,46 %</td>
+            </tr>
+            <tr>
+                <td>CE</td>
+                <td>9 233 656</td>
+                <td>4,33 %</td>
+            </tr>
+            <tr>
+                <td>PA</td>
+                <td>8 664 306</td>
+                <td>4,1 %</td>
+            </tr>
+            <tr>
+                <td>SC</td>
+                <td>8 058 447</td>
+                <td>3,75 %</td>
+            </tr>
+            <tr>
+                <td>GO</td>
+                <td>7 350 483</td>
+                <td>3,47 %</td>
+            </tr>
+            <tr>
+                <td>MA</td>
+                <td>7 010 960</td>
+                <td>3,34 %</td>
+            </tr>
+            <tr>
+                <td>AM</td>
+                <td>4 281 209</td>
+                <td>1,94 %</td>
+            </tr>
+            <tr>
+                <td>PB</td>
+                <td>4 145 040</td>
+                <td>1,96 %</td>
+            </tr>
+            <tr>
+                <td>ES</td>
+                <td>4 102 129</td>
+                <td>1,89 %</td>
+            </tr>
+            <tr>
+                <td>MT</td>
+                <td>3 836 399</td>
+                <td>1,8 %</td>
+            </tr>
+            <tr>
+                <td>RN</td>
+                <td>3 446 071</td>
+                <td>1,63 %</td>
+            </tr>
+            <tr>
+                <td>PI</td>
+                <td>3 375 646</td>
+                <td>1,61 %</td>
+            </tr>
+            <tr>
+                <td>AL</td>
+                <td>3 220 104</td>
+                <td>1,54 %</td>
+            </tr>
+            <tr>
+                <td>DF</td>
+                <td>2 982 815</td>
+                <td>1,39 %</td>
+            </tr>
+            <tr>
+                <td>MS</td>
+                <td>2 901 895</td>
+                <td>1,36 %</td>
+            </tr>
+            <tr>
+                <td>SE</td>
+                <td>2 291 077</td>
+                <td>1,09 %</td>
+            </tr>
+            <tr>
+                <td>RO</td>
+                <td>1 746 227</td>
+                <td>0,78 %</td>
+            </tr>
+            <tr>
+                <td>TO</td>
+                <td>1 577 342</td>
+                <td>0,74 %</td>
+            </tr>
+            <tr>
+                <td>AC</td>
+                <td>880 631</td>
+                <td>0,41 %</td>
+            </tr>
+            <tr>
+                <td>AP</td>
+                <td>802 837</td>
+                <td>0,36 %</td>
+            </tr>
+            <tr>
+                <td>RR</td>
+                <td>716 793</td>
+                <td>0,31 %</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td>212 583 720</td>
+                <td>100 %</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
