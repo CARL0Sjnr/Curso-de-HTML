@@ -3,8 +3,6 @@
 /* Tela Vertical */
 
 body {
-    width: 100vw;
-    height: 100vh;
     background: url(../imagens/cev-portrait.jpg) no-repeat center bottom fixed;
     background-size: contain;;
 }
