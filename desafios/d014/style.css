@@ -45,6 +45,10 @@ main section form {
 }
 
 @media screen and (min-width: 1000px) {
+    body {
+        background-image: linear-gradient(to bottom, #96C2DD, #DDDDDD,#816F65);
+    }
+
     main {
         display: flex;
         width: 600px;
@@ -60,6 +64,7 @@ main section form {
     }
 
     #ima {
+        background: url(imagens/pexels-ikaia-pal-2065568-10864048.jpg);
         width: 400px;
         background-attachment: fixed;
         background-size: cover;
