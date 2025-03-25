@@ -7,7 +7,6 @@
 }
 
 body {
-    height: 100vh;
     background-image: linear-gradient(to bottom, #C7C4B5, #F5E1C9,#F8C189);
 }
 
@@ -15,7 +14,7 @@ main {
     width: 350px;
     margin: auto;
     overflow: hidden;
-    padding-top: 60px;
+    padding: 60px;
 
     opacity: 1;
     transform: scale(1);
@@ -38,6 +37,19 @@ main section form {
     background-color: white;
 }
 
+.but {
+    height:25px;
+    width: 60px;
+    margin: 8px;
+    font-weight: bolder;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.475);
+}
+
+.but:hover {
+    background-color: lightgray;
+    box-shadow: none;
+}
+    
 #ima {
     background: black url(imagens/pexels-250d-11950738.jpg) center center fixed no-repeat;
     background-size: cover;
@@ -46,13 +58,13 @@ main section form {
 
 @media screen and (min-width: 1000px) {
     body {
+        height: 100vh;
         background-image: linear-gradient(to bottom, #96C2DD, #DDDDDD,#816F65);
     }
 
     main {
         display: flex;
         width: 600px;
-        padding-top: 130px;
         opacity: 1;
         transform: scale(1.2);
     }
