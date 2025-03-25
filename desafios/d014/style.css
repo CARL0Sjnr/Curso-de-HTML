@@ -14,8 +14,12 @@ body {
 main {
     width: 350px;
     margin: auto;
-    border: 1px solid black;
-    margin-top: 50px;
+    overflow: hidden;
+    padding-top: 60px;
+
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 main section h1 {
@@ -36,25 +40,28 @@ main section form {
 
 #ima {
     background: black url(imagens/pexels-250d-11950738.jpg) center center fixed no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 480px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     main {
         display: flex;
-        width: 800px;
+        width: 600px;
+        padding-top: 130px;
+        opacity: 1;
+        transform: scale(1.2);
     }
 
     #fomu {
         width: 400px;
-        padding-top: 100px;
+        padding-top: 80px;
         font-size: 1.5em;
     }
 
     #ima {
         width: 400px;
-        background-attachment: unset;
+        background-attachment: fixed;
         background-size: cover;
         background-position: center bottom;
     }
