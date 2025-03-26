@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <main>
-        <section id="fomu">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-            <form action="" method="post">
-                <label for="iema"> 📧</label>
-                <input type="email" name="email" id="iema"><br>
-
-                <label for="isen"> 🔑</label>
-                <input type="password" name="sen" id="isen" size="20" ><br>
-
-                <input type="submit" value="Enviar" class="but">
-                <input type="reset" value="Limpar" class="but">
-            </form>
-        </section>
-        <section id="ima">
-        
+        <section>
+            <div id="fomu">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="" method="post" autocomplete="on">
+                    <fieldset class="camp">
+                        <label for="iema"> 📧</label>
+                        <input type="email" name="email" id="iema" required placeholder="Digite seu Email"><br>
+                    </fieldset>
+                    <fieldset class="camp">
+                        <label for="isen"> 🔑</label>
+                        <input type="password" name="sen" id="isen" size="20" required placeholder="Digite sua Senha"><br>
+                    </fieldset>
+                    <input type="submit" value="Enviar" class="but"><br>
+                    <input type="reset" value="Limpar" class="but">
+                </form>
+                <div id="ima">
+                    
+                </div>
+                
+            </div>
+                
         </section>
     </main>
 </body>
