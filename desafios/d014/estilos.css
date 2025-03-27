@@ -38,6 +38,9 @@ main {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.505);
+
+    transition: width 500ms, height 500ms;
+    transition-timing-function: ease;
 }
 
 #imagem {
