@@ -19,6 +19,10 @@
         float: left;
         width: 70%;
     }
+
+    label {
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 990px) {
@@ -47,5 +51,9 @@
 
     #formulario p {
         font-size: 1.2em;
+    }
+
+    label {
+        display: inline-block;
     }
 }
