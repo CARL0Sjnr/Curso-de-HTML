@@ -31,14 +31,13 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: var(--cor4);
     width: 250px;
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.505);
-
+    transform: translate(-50%, -50%);
     transition: width 500ms, height 500ms;
     transition-timing-function: ease;
 }
@@ -70,6 +69,30 @@ main {
     height: 40px;
     border-radius: 10px;
     margin: 5px 0px;
+    color: white;
+    border: 2px;
+}
+
+.campo i {
+    font-size: 1.7em;
+    width: 30px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.campo input {
+    background-color: var(--cor1);
+    font-size: 1em;
+    height: 100%;
+    border-radius: 10px;
+    border-color: var(--cor3);
+    padding: 5px;
+    width: calc(100% - 35px);
+    transform: translateY(-5px);
+}
+
+.campo input:focus-within {
+    background-color: var(--cor4);
 }
 
 label {
