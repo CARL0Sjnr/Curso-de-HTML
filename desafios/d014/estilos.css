@@ -135,7 +135,7 @@ form a.botao {
 }
 
 form a.botao i {
-    font-size: 0em;
+    font-size: 0.8em;
 }
 
 form a.botao:hover {
