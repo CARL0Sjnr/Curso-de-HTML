@@ -7,8 +7,15 @@
     <style>
         .container {
             background-color: lightsalmon;
+            height: 200px;
 
             display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+            /* Justify-content alinha os itens com base no eixo principal 
+            Align-items alinha os itens com base no eixo transversal */
         }
 
         .item {
@@ -16,7 +23,6 @@
             border: 1px solid black;
             text-align: center;
 
-            flex: auto;
         }
     </style>
 </head>
