@@ -11,7 +11,8 @@
 
             display: flex;
             flex-flow: row wrap;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
         }
 
         .item {
@@ -22,36 +23,31 @@
         }
 
         #i1 {
-            order: 6;
+            align-self: stretch;
         }
 
         #i2 {
-            order: 5;
-            align-self: auto;
+            align-self: first baseline;
         }
 
         #i3 {
-            order: 2;
-            align-self: flex-end;
-        }
-
-        #i4 {
-            order: 0;
-        }
-
-        #i5 {
-            order: -1;
-            align-self: center;
-        }
-
-        #i6 {
-            order: -4;
             align-self: flex-start;
         }
 
+        #i4 {
+            align-self: flex-end;
+        }
+
+        #i5 {
+            align-self: auto;
+        }
+
+        #i6 {
+            align-self: inherit;
+        }
+
         #i7 {
-            order: -5;
-            align-self: stretch;
+            align-self: baseline;
         }
     </style>
 </head>
