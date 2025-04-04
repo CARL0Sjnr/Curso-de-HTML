@@ -74,7 +74,7 @@ main {
 
 @media screen and (max-width: 567px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     
     header {
