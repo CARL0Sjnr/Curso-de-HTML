@@ -27,14 +27,40 @@ header {
     background-color: var(--cor3);
     color: var(--cor6);
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     border: 1px dotted black;
+    flex: 0 0 160px;
+}
+
+header nav a {
+    background-color: var(--cor5);
+    color: var(--cor6);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: var(--cor2);
+    color: var(--cor5);
+    transition: background-color 300ms;
 }
 
 header nav {
     border: 1px dotted black;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 main {
